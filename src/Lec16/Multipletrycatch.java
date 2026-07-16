@@ -10,7 +10,7 @@ public class Multipletrycatch {
 
 		
 		
-		//FileReader fs  = new FileReader("abc.txt");
+		FileReader fs  = new FileReader("abc.txt");
 		
 		
 		
