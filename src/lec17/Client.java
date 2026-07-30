@@ -1,42 +1,37 @@
 package lec17;
 
+import java.util.Scanner;
+
+
 public class Client {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	//	Child c  = new Child();
+//		byte b =  (byte) (128);
+//		System.out.println(b);
 //		
-//		Parent p = new Parent();
+		int m  = 073;
+		System.out.println(m);
+		
+		System.out.println();
+		
+
 	
-		//c.fun2();
-		
-		
-		//Parent p = new Parent();
-		
-//		
-//		
-	Parent obj = new Child();
-//		
-//		
-//		System.out.println(obj.d1);
-//		
-//		System.out.println(obj.d);
-//		
-//		System.out.println(((Child) (obj)).d);
-//		
-//		
-//		obj.fun2();
-//		
-	obj.fun();
+	}
 	
-	//	Child obj = (Child) new Parent();
-		
-	//	Child obj = new Child();
-		
-		
-//Child obj = new Child();
 	
+	public static void  fun() {
+		//fun2();// now allowed in java
+	}
+	
+	
+	public void fun2() {
+		fun();
+	}
+	
+	public static void main(String []args , int a) {
+		
 	}
 
 }
