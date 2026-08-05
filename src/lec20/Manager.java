@@ -4,8 +4,11 @@ public class Manager implements Aryan ,Hardik , Dhruv{
 
 	
 	public static void main(String[] args) {
-		
+		Manager m = new Manager();
+		m.ans();
 	}
+	
+	
 	@Override
 	public void gaming() {
 		// TODO Auto-generated method stub
@@ -39,6 +42,11 @@ public class Manager implements Aryan ,Hardik , Dhruv{
 
 	@Override
 	public void batch() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void hello() {
 		// TODO Auto-generated method stub
 		
 	}

@@ -6,7 +6,5 @@ public interface Hardik {
 	
 	public void eat();
 	
-public static void batch(){
-		
-	}
+public  void batch();
 }

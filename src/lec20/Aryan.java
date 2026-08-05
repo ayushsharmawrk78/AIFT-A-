@@ -6,6 +6,9 @@ public interface Aryan {
 	
 	public void random();
 	
+	default void ans() {
+		System.out.println("hello i am in ans");
+	}
 public  void batch() ;
 }
-}
+

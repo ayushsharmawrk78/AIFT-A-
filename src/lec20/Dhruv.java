@@ -8,7 +8,5 @@ public interface Dhruv {
 	public void eating();
 	
 	
-	public static void batch(){
-		
-	}
+	public  void batch();
 }

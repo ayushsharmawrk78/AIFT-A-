@@ -1,0 +1,23 @@
+package Lec24;
+
+public class Student {
+
+	String name ;
+ private int age;
+ 
+ public Student(String name) {
+	System.out.println("hello welcome to school"+ name);
+	this.name=name;
+ }
+ public void setage(int age) throws Exception {
+	 if(age<0) {
+		 throw new Exception("age cannot be ve");
+		 
+	 }
+	 this.age=age;
+ }
+ 
+ public int getage() {
+	 return this.age;
+ }
+}
