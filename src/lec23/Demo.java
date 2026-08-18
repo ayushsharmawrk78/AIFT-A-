@@ -1,14 +1,26 @@
 package lec23;
 
+import java.util.Iterator;
+
 public class Demo {
-	static int m =29;
-	static {
-	System.out.println("in Static block of demo ");
-	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	System.out.println("start");	
+	fun();
+		}
 
-	}
+public static void fun() {
+	fun2();
+	System.out.println("hello");
+}
+public static void fun2() {
+	
+	
+	System.out.println("world");
+}
+	
+	
+	
 
+	
 }
